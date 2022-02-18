@@ -1,0 +1,19 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.info {
+    font-family: 'Inter', sans-serif;
+    color: rgba(25, 27, 68, 1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -40%);
+    background-color: whitesmoke;
+    border-radius: 15px;
+    width: 600px;
+    height: 350px;
+    padding: 15px;
+    margin: auto;
+}
