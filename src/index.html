@@ -23,17 +23,31 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Inter', sans-serif; font-weight: bold;">
+    <nav class="navbar navbar-dark bg-dark" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Inter', sans-serif; font-weight: bold; color: whitesmoke;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="Vector.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"> Tasklet
+                <img src="Vector.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">Tasklet
             </a>
+            <ul style="color: whitesmoke;" class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li style="display: inline;" class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                </li>
+                <li style="display: inline;" class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li style="display: inline;" class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Features</a>
+                </li>
+                <li style="display: inline;" class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
 
     <form class="info">
-        <h3 style="font-weight: 400; text-align: center;">Log into Tasklet</h3>
+        <h3 style="font-weight: 400; text-align: center;">Log in to Tasklet</h3>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -48,6 +62,7 @@
             <label class="form-check-label" for="exampleCheck1">Remember Me</label>
         </div>
         <button style="font-family: 'Inter', sans-serif; background-color: rgba(25, 27, 68, 1)" type="submit" class="btn btn-primary">Login</button>
+        <span>Don't have an account? <a href="">Sign Up here</a></span>
     </form>
 </body>
 
